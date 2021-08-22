@@ -18,3 +18,10 @@ git status
 git add comandos.md
 git add .
 ```
+
+## Confirmar archivos
+
+```
+git commit
+git commit -m "Inicio de Git"
+```
