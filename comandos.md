@@ -91,3 +91,9 @@ git merge nombreRamaACombinar
 ```
 
 > _Tienen que estar en la rama sobre la cual se hará la combinación_
+
+## Para crear un rebase
+
+```
+git rebase ramaDestino ramaOrigen
+```
