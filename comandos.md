@@ -47,3 +47,15 @@ git config --global user.email "sergiohidalgocaceres@gmail.com"
 git config -e
 git config --global -e
 ```
+
+## Almacenamiento temporal
+
+```
+git stash save "copia temporal"
+```
+
+## Recuperar un stash
+
+```
+git stash pop 0
+```
