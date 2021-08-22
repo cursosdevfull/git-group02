@@ -25,3 +25,25 @@ git add .
 git commit
 git commit -m "Inicio de Git"
 ```
+
+## Listar los commits
+
+```
+git log
+```
+
+## Agregar credenciales
+
+```
+git config user.name "Sergio"
+git config user.email "sergio@gmail.com"
+git config --global user.name "Sergio"
+git config --global user.email "sergiohidalgocaceres@gmail.com"
+```
+
+## Editar configuración de git
+
+```
+git config -e
+git config --global -e
+```
