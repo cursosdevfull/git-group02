@@ -65,3 +65,21 @@ git stash list
 ```
 git stash pop 0
 ```
+
+## Para crear ramas
+
+```
+git branch nombreRama
+```
+
+## Para cambiar de rama
+
+```
+git checkout nombreRama
+```
+
+## Para crear una rama y cambiar a esa rama
+
+```
+git checkout -b nombreRama
+```
