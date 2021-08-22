@@ -83,3 +83,11 @@ git checkout nombreRama
 ```
 git checkout -b nombreRama
 ```
+
+## Para crear un merge
+
+```
+git merge nombreRamaACombinar
+```
+
+> _Tienen que estar en la rama sobre la cual se hará la combinación_
