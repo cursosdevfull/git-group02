@@ -54,6 +54,12 @@ git config --global -e
 git stash save "copia temporal"
 ```
 
+## Para listar stash
+
+```
+git stash list
+```
+
 ## Recuperar un stash
 
 ```
