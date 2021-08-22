@@ -97,3 +97,10 @@ git merge nombreRamaACombinar
 ```
 git rebase ramaDestino ramaOrigen
 ```
+
+## Para regresar a un commit usando posiciones relativas
+
+```
+git checkout HEAD^
+git checkout HEAD~5
+```
