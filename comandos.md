@@ -104,3 +104,17 @@ git rebase ramaDestino ramaOrigen
 git checkout HEAD^
 git checkout HEAD~5
 ```
+
+## Para eliminar commits (solo si no están compartidos con el repositorio remoto)
+
+```
+git reset HEAD~
+git reset --hard HEAD~5
+```
+
+## Para eliminar commits (si están compartidos con el repositorio remoto)
+
+```
+git revert HEAD
+git revert --no-commit HEAD~6..HEAD
+```
