@@ -118,3 +118,9 @@ git reset --hard HEAD~5
 git revert HEAD
 git revert --no-commit HEAD~6..HEAD
 ```
+
+## Para mover commits
+
+```
+git cherry-pick <commit> ... <commit>
+```
