@@ -124,3 +124,23 @@ git revert --no-commit HEAD~6..HEAD
 ```
 git cherry-pick <commit> ... <commit>
 ```
+
+## Para agregar tags
+
+```
+git tag "v.1.0.0" 2aa66
+```
+
+## Para revisar el log
+
+```
+git log
+git log --oneline
+git log --pretty
+```
+
+## Para agregar cambios al último commit
+
+```
+git commit --amend
+```
