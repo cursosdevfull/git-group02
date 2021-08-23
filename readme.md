@@ -144,3 +144,10 @@ git log --pretty
 ```
 git commit --amend
 ```
+
+## Para vincular el repositorio local con el repositorio remoto
+
+```
+git remote add origin https://github.com/cursosdevfull/git-group02.git
+git branch -M main
+```
